@@ -411,8 +411,6 @@ results/
 - **Disk space.** Databases are huge and KneadData/HUMAnN produce large intermediate files. Keep databases on a scratch disk and delete `humann_input/` and `humann/<sample>/*_humann_temp` when no longer needed.
 - **Human host removal.** For fecal samples the human fraction is usually small, but keep the decontamination step, especially for data that will be deposited in public archives.
 - **Different file naming.** If your reads end in `_1.fastq.gz`/`_2.fastq.gz`, set `R1_SUFFIX="_1.fastq.gz"` and `R2_SUFFIX="_2.fastq.gz"`.
-- **Real data privacy.** Do not commit raw reads or results to a public repository; `.gitignore` already excludes `data/` and `results/`.
-
 ---
 
 ## 15. References

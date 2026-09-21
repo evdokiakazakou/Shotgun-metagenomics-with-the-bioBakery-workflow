@@ -420,6 +420,3 @@ results/
 - bioBakery tools and documentation: <https://github.com/biobakery>, <https://huttenhower.sph.harvard.edu/tools/>
 - FastQC: <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/>
 
-## License
-
-Add a license of your choice (e.g. MIT) as a `LICENSE` file.
